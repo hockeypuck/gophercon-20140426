@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hockeypuck</title>
+    <meta charset='utf-8'>
+    <script src='static/slides.js'></script>
+  </head>
+
+  <body style='display: none'>
+
+    <section class='slides layout-widescreen'>
+      
+      <article>
+        <h1>Hockeypuck</h1>
+        <h3>An OpenPGP keyserver developed in Go</h3>
+        <h3>26 April 2014</h3>
+        
+          <div class="presenter">
+            
+          </div>
+        
+      </article>
+      
+  
+  
+      <article>
+      
+        <h3>OpenPGP Keyservers</h3>
+        
+  <ul>
+  
+    <li>Directory service for delivering updates to public key material.</li>
+  
+  </ul>
+
+  <ul>
+  
+    <li>Not a trusted system.</li>
+  
+  </ul>
+
+  <ul>
+  
+    <li>Clients (GnuPG, etc.) must validate key material.</li>
+  
+  </ul>
+
+  
+  <p>
+    Typical use
+  </p>
+  
+
+  <ul>
+  
+    <li>Importing key material for a new contact</li>
+  
+  </ul>
+
+  <ul>
+  
+    <li>Discovering new updates (signatures, revocations, etc.) for known contacts.</li>
+  
+  </ul>
+
+      
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>Quick Demo</h3>
+        
+  <ul>
+  
+    <li>GnuPG interface</li>
+  
+  </ul>
+
+  <ul>
+  
+    <li>Web interface</li>
+  
+  </ul>
+
+      
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>Current Status</h3>
+        
+  
+  <p>
+    Hockeypuck 1.0 released with 14.04, in trusty/universe
+  </p>
+  
+
+  
+  <p>
+    Synchronizing with PKS and SKS gossip peers
+  </p>
+  
+
+  
+  <p>
+    <a href="http://keys.cmarstech.com:11371" target="_blank">http://keys.cmarstech.com:11371</a>
+  </p>
+  
+
+      
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>SKS gossip protocol</h3>
+        
+  
+  <p>
+    Set Reconciliation with Nearly Optimal Communication Complexity
+  </p>
+  
+
+  
+  <p>
+    <a href="http://ipsit.bu.edu/documents/ieee-it3-web.pdf" target="_blank">Yaron Minsky, Ari Trachtenburg, Richard Zippel (2004)</a>
+  </p>
+  
+
+  
+  <p>
+    Go language package
+  </p>
+  
+
+  
+  <p>
+    <a href="github.com/cmars/conflux" target="_self">https://github.com/cmars/conflux</a>
+  </p>
+  
+
+  
+  <p>
+    Backend storage: goleveldb, in-memory, ???
+  </p>
+  
+
+      
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>Good Stuff</h3>
+        
+  
+  <p>
+    <a href="code.google.com/p/go.crypto/openpgp" target="_self">http://code.google.com/p/go.crypto/openpgp</a>
+  </p>
+  
+
+  
+  <p>
+    <a href="http://github.com/jmoiron/sqlx" target="_blank">github.com/jmoiron/sqlx</a>
+  </p>
+  
+
+  
+  <p>
+    <a href="https://github.com/gorilla/mux" target="_blank">github.com/gorilla/mux</a>
+  </p>
+  
+
+  
+  <p>
+    <a href="http://golang.org/pkg/html/template/" target="_blank">templates</a>
+  </p>
+  
+
+      
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>TODO</h3>
+        
+  
+  <p>
+    Code cleanup. :)
+  </p>
+  
+
+  
+  <p>
+    Conflux
+<br>
+
+    - More concurrency
+<br>
+
+    - More backends
+  </p>
+  
+
+  
+  <p>
+    Web UI.
+  </p>
+  
+
+  
+  <p>
+    New PGP applications.
+  </p>
+  
+
+      
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>Thanks!</h3>
+        
+  
+  <p>
+    <a href="https://hockeypuck.github.io" target="_blank">https://hockeypuck.github.io</a>
+  </p>
+  
+
+  
+  <p>
+    <a href="https://github.com/hockeypuck/hockeypuck" target="_blank">https://github.com/hockeypuck/hockeypuck</a>
+  </p>
+  
+
+  
+  <p>
+    <a href="https://github.com/cmars/conflux" target="_blank">https://github.com/cmars/conflux</a>
+  </p>
+  
+
+  
+  <p>
+    <a href="https://github.com/cmars" target="_blank">https://github.com/cmars</a>
+  </p>
+  
+
+      
+      </article>
+  
+  
+
+      <article>
+        <h3>Thank you</h1>
+        
+          <div class="presenter">
+            <p class="link"><a href="mailto:Casey%20Marshall%20%28@cmarstech%29" target="_blank">Casey Marshall (@cmarstech)</a></p>
+  
+  <p>
+    Canonical, Ltd
+  </p>
+  
+<p class="link"><a href="mailto:casey.marshall@canonical.com" target="_blank">casey.marshall@canonical.com</a></p>
+          </div>
+        
+      </article>
+
+  </body>
+  
+</html>
